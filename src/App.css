@@ -36,3 +36,105 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Application Start */
+.home-page{
+  background-image: url('./assets/images/casey-horner-RmoWqDCqN2E-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh);
+  position: relative;
+}
+.logo{
+  width: 100px;
+  padding-top: 25px;
+}
+.home-page h1{
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+.home-page h1::after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url("./assets/images/laptop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+    top: calc(100% - 10%);
+    left: calc(100% - 70%);
+}
+.home-page h2{
+  color: #fff;
+  font-size: 50px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.coming-soon{
+  width: 350px;
+}
+
+/* Media Query */
+/**
+* Tab View 
+*/
+@media screen and (max-width:1023px){
+  .logo{
+    width: 100px;
+    padding-top: 25px;
+  }
+  .home-page h1{
+    font-size: 60px;
+    line-height: 50px;
+  }
+  .home-page h1::after{
+    width: 100px;
+    height: 100px;
+    top: calc(100% - -3%);
+    left: calc(100% - 81%);
+  }
+  .home-page h2{
+    color: #fff;
+    font-size: 35px;
+  }
+  .coming-soon{
+    width: 300px;
+  }
+}
+
+/**
+* Mobile View
+*/
+@media screen and (max-width:767px){
+  .logo{
+    width: 50px;
+    padding-top: 15px;
+  }
+  .home-page h1{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .home-page h1::after{
+    width: 50px;
+    height: 50px;
+    top: calc(100% - -3%);
+    left: calc(100% - 86%);
+  }
+  .home-page h2{
+    color: #fff;
+    font-size: 25px;
+  }
+  .coming-soon{
+    width: 200px;
+  }
+}
