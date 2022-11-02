@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/muthu-developer/static/css/main.fc803258.css",
-    "main.js": "/muthu-developer/static/js/main.c9a46bc8.js",
-    "static/js/787.ce672d32.chunk.js": "/muthu-developer/static/js/787.ce672d32.chunk.js",
-    "static/media/casey-horner-RmoWqDCqN2E-unsplash.jpg": "/muthu-developer/static/media/casey-horner-RmoWqDCqN2E-unsplash.1850caf7a0ca020b91f1.jpg",
-    "static/media/laptop.png": "/muthu-developer/static/media/laptop.fe83acd5cf5e74a74b3a.png",
-    "static/media/coming-soon.png": "/muthu-developer/static/media/coming-soon.2f1d24d252dea05d9503.png",
-    "static/media/store.png": "/muthu-developer/static/media/store.d5d8f372b6438c4423bd.png",
-    "index.html": "/muthu-developer/index.html",
-    "main.fc803258.css.map": "/muthu-developer/static/css/main.fc803258.css.map",
-    "main.c9a46bc8.js.map": "/muthu-developer/static/js/main.c9a46bc8.js.map",
-    "787.ce672d32.chunk.js.map": "/muthu-developer/static/js/787.ce672d32.chunk.js.map"
+    "main.css": "/aura-metals-mart/static/css/main.4c94b5bd.css",
+    "main.js": "/aura-metals-mart/static/js/main.60ce20fe.js",
+    "static/js/787.ce672d32.chunk.js": "/aura-metals-mart/static/js/787.ce672d32.chunk.js",
+    "static/media/casey-horner-RmoWqDCqN2E-unsplash.jpg": "/aura-metals-mart/static/media/casey-horner-RmoWqDCqN2E-unsplash.1850caf7a0ca020b91f1.jpg",
+    "static/media/laptop.png": "/aura-metals-mart/static/media/laptop.fe83acd5cf5e74a74b3a.png",
+    "static/media/coming-soon.png": "/aura-metals-mart/static/media/coming-soon.2f1d24d252dea05d9503.png",
+    "static/media/store.png": "/aura-metals-mart/static/media/store.d5d8f372b6438c4423bd.png",
+    "index.html": "/aura-metals-mart/index.html",
+    "main.4c94b5bd.css.map": "/aura-metals-mart/static/css/main.4c94b5bd.css.map",
+    "main.60ce20fe.js.map": "/aura-metals-mart/static/js/main.60ce20fe.js.map",
+    "787.ce672d32.chunk.js.map": "/aura-metals-mart/static/js/787.ce672d32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc803258.css",
-    "static/js/main.c9a46bc8.js"
+    "static/css/main.4c94b5bd.css",
+    "static/js/main.60ce20fe.js"
   ]
 }
