@@ -7,7 +7,7 @@ export default function Header(){
             <div className="header-wrapper">
                 <div className="header-section">
                     <div className="container">
-                        <div className="d-flex">
+                        <div className="d-flex position-relative">
                             <div className="logo">
                                 <img src={Store} alt="Store" />
                             </div>
@@ -31,23 +31,25 @@ export default function Header(){
                                     <a href="#">
                                         Living Room Furniture
                                     </a>
-                                    <ul className="submenu-list">
-                                        <li>
-                                            <a href="#">Sofa</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Sofa Beds</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Dining Tables & Chairs</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Coffee Tables</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Shoe Racks</a>
-                                        </li>
-                                    </ul>
+                                    <div className="sub-list-div">
+                                        <ul className="submenu-list">
+                                            <li>
+                                                <a href="#">Sofa</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sofa Beds</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Dining Tables & Chairs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Coffee Tables</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shoe Racks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
                             </ul>
                         </div>

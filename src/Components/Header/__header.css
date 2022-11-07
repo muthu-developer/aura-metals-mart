@@ -1,5 +1,5 @@
 .header-comp{
-    padding: 15px;
+    padding: 15px 0px;
 }
 .header-section .logo{
     padding-top: 0 !important;
@@ -18,33 +18,48 @@
 .header-comp .category-list li a{
     display: block;
     padding: 10px;
-    border-bottom: 2px solid red;
+    /* border-bottom: 2px solid red; */
     color: red;
     font-weight: bold;
     margin-right: 10px;
-    transition: 0.5s ease;
+    transition: 0.4s ease;
 }
 .header-comp .category-list li a:hover{
     background-color: red;
     color: #fff;
 }
 .header-comp .category-list li.submenu{
-    position: relative;
+    /* position: relative; */
 }
-.header-comp .category-list li.submenu .submenu-list{
+.header-comp .category-list li.submenu .sub-list-div{
    position: absolute;
    opacity: 0;
    z-index: -1;
-   transition: 0,5s;
+   transition: 0.4s;
 }
-.header-comp .category-list li.submenu:hover .submenu-list{
+.header-comp .category-list li.submenu:hover .sub-list-div{
     opacity: 1;
     z-index: 1;
 }
-.header-comp .category-list li.submenu .submenu-list{
-    width: 275px;
+.header-comp .category-list li.submenu .sub-list-div{
+    background-image: url("./../../assets/images/furniture.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right 35%;
+}
+.header-comp .category-list li.submenu .sub-list-div{
+    width: calc(100vw - 20%);
     background-color: #fff;
     padding: 20px;
+    right: 0;
+    top: 45px;
+}
+.header-comp .category-list li.submenu .sub-list-div ul.submenu-list{
+    padding: 0;
+}
+.header-comp .category-list li.submenu:hover .sub-list-div ul.submenu-list{
+    padding: 0;
+    width: 230px;
 }
 .header-comp .category-list li.submenu .submenu-list li{
     display: block;
