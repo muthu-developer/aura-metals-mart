@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/aura-metals-mart/static/css/main.aafb7ca4.css",
-    "main.js": "/aura-metals-mart/static/js/main.e8f0e512.js",
+    "main.css": "/aura-metals-mart/static/css/main.a35e6b92.css",
+    "main.js": "/aura-metals-mart/static/js/main.1d97e960.js",
     "static/js/787.ce672d32.chunk.js": "/aura-metals-mart/static/js/787.ce672d32.chunk.js",
     "static/media/casey-horner-RmoWqDCqN2E-unsplash.jpg": "/aura-metals-mart/static/media/casey-horner-RmoWqDCqN2E-unsplash.1850caf7a0ca020b91f1.jpg",
+    "static/media/furniture.png": "/aura-metals-mart/static/media/furniture.ea4798994a13dba2a801.png",
     "static/media/laptop.png": "/aura-metals-mart/static/media/laptop.fe83acd5cf5e74a74b3a.png",
     "static/media/coming-soon.png": "/aura-metals-mart/static/media/coming-soon.2f1d24d252dea05d9503.png",
     "static/media/store.png": "/aura-metals-mart/static/media/store.d5d8f372b6438c4423bd.png",
     "index.html": "/aura-metals-mart/index.html",
-    "main.aafb7ca4.css.map": "/aura-metals-mart/static/css/main.aafb7ca4.css.map",
-    "main.e8f0e512.js.map": "/aura-metals-mart/static/js/main.e8f0e512.js.map",
+    "main.a35e6b92.css.map": "/aura-metals-mart/static/css/main.a35e6b92.css.map",
+    "main.1d97e960.js.map": "/aura-metals-mart/static/js/main.1d97e960.js.map",
     "787.ce672d32.chunk.js.map": "/aura-metals-mart/static/js/787.ce672d32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aafb7ca4.css",
-    "static/js/main.e8f0e512.js"
+    "static/css/main.a35e6b92.css",
+    "static/js/main.1d97e960.js"
   ]
 }
