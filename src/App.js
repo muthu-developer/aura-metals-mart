@@ -10,7 +10,8 @@ function App() {
       <div className='home-page'>
         <div className='logo-section'>
           <img src={Shop} alt="Aura Metals Mart" className='logo' />
-          <h1>AURA METALS MART</h1>
+          <h1>THE STORE</h1>
+          <h6 className='text-light'>AURA METALS MART</h6>
           <h2>Online Shopping</h2>
           <img src={CS} alt="Coming Soon" className='coming-soon' />
         </div>
